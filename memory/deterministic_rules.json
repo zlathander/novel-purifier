@@ -91,6 +91,74 @@
     {
       "pattern": "夏然而止",
       "replacement": "戛然而止"
+    },
+    {
+      "pattern": "柏林围墙",
+      "replacement": "柏林墙"
+    },
+    {
+      "pattern": "罗浮宫",
+      "replacement": "卢浮宫"
+    },
+    {
+      "pattern": "麦可·杜根",
+      "replacement": "迈克尔·杜根"
+    },
+    {
+      "pattern": "克卜勒",
+      "replacement": "开普勒"
+    },
+    {
+      "pattern": "猎户座悬臂",
+      "replacement": "猎户座旋臂"
+    },
+    {
+      "pattern": "林格——菲兹罗",
+      "replacement": "林格——斐兹罗"
+    },
+    {
+      "pattern": "c[n}h[m}0{}n{y}s[z}",
+      "replacement": "C_nH_mO_xN_yS_z"
+    },
+    {
+      "pattern": "大海阑阑",
+      "replacement": "大海澜澜"
+    },
+    {
+      "pattern": "天衍四九，人道其一",
+      "replacement": "天衍四九，人遁其一"
+    },
+    {
+      "pattern": "装核在卡车上",
+      "replacement": "装载在卡车上"
+    },
+    {
+      "pattern": "锐角顺时转弯",
+      "replacement": "锐角瞬时转弯"
+    },
+    {
+      "pattern": "爱因斯坦提的的宇称不守恒",
+      "replacement": "爱因斯坦提出的宇称不守恒"
+    },
+    {
+      "pattern": "0.5pm的灰尘",
+      "replacement": "0.5μm的灰尘"
+    },
+    {
+      "pattern": "丁仪选下粉笔",
+      "replacement": "丁仪放下粉笔"
+    },
+    {
+      "pattern": "正如我的温民一般",
+      "replacement": "正如我的子民一般"
+    },
+    {
+      "pattern": "二神明之间的战争",
+      "replacement": "众神明之间的战争"
+    },
+    {
+      "pattern": "h—37型37毫米机炮和两门hc—23km型23毫米机炮",
+      "replacement": "Н—37型37毫米机炮和两门НС—23КМ型23毫米机炮"
     }
   ],
   "acronym_normalizations": [
@@ -121,6 +189,48 @@
     {
       "pattern": "\\b(?:cern)\\b",
       "replacement": "CERN"
+    }
+  ],
+  "scientific_notation_recovery_rules": [
+    {
+      "description": "科学计数法上标脱落还原（SCI_NOTATION_RECOVERY）",
+      "patterns": [
+        {"raw": "7×102微观粒子", "fixed": "7×10^23个微观粒子"},
+        {"raw": "6.67×10千克", "fixed": "5.97×10^24千克"},
+        {"raw": "7×1026个原子", "fixed": "7×10^26个原子"},
+        {"raw": "太阳总辐射功率3.828×10瓦", "fixed": "太阳总辐射功率3.828×10^26瓦"},
+        {"raw": "施温格极限（约10瓦/平方厘米）", "fixed": "施温格极限（约10^29瓦/平方厘米）"},
+        {"raw": "102以上", "fixed": "10^20以上"},
+        {"raw": "约10+焦耳的能量", "fixed": "约10^43焦耳的能量"},
+        {"raw": "1.67年之后发生的质子衰变", "fixed": "1.67×10^34年之后发生的质子衰变"}
+      ]
+    }
+  ],
+  "inline_author_diary_rules": [
+    {
+      "description": "正文内嵌分割线/括号式作者日常随笔剥离（INLINE_AUTHOR_DIARY_STRIP）",
+      "patterns": [
+        "分割线到.*?了.*?现在是.*",
+        "（人还在.*?服务区.*?字码完了.*?）"
+      ]
+    }
+  ],
+  "draft_dedup_rules": [
+    {
+      "description": "草稿相邻重段去重（DRAFT_DEDUP）",
+      "guideline": "识别连续两段中出现的同义草稿修改残留，优先保留语义更完整、叙事更详尽的后句或定稿句，消除冗余重段。"
+    }
+  ],
+  "context_logic_override_rules": [
+    {
+      "description": "紧邻上下文事实与算术自洽裁决（CONTEXT_LOGIC_OVERRIDE）",
+      "guideline": "基于上下文中不可动摇的情节硬事实（如主角身份、提案阵营、前后对话对立关系及严谨乘除换算）对孤立笔误进行强制覆盖裁决。"
+    }
+  ],
+  "unit_ocr_recovery_rules": [
+    {
+      "description": "物理单位与外文字母OCR退化修复（UNIT_OCR_RECOVERY）",
+      "guideline": "针对微米(μm)退化为(pm)、西里尔字母退化为英文字母、角度符号退化为方括号等OCR损坏，依据专业物理与军事命名标准还原。"
     }
   ],
   "title_suffixes": [

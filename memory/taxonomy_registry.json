@@ -17,13 +17,23 @@
     "核物理与同位素字形损坏",
     "连载作者碎碎念与催更提示",
     "网址过滤残留病句",
-    "科学计数法指数截断丢失"
+    "科学计数法指数截断丢失",
+    "科学计数法上标脱落还原（SCI_NOTATION_RECOVERY）",
+    "正文内嵌分割线/括号式作者日常随笔剥离（INLINE_AUTHOR_DIARY_STRIP）",
+    "草稿相邻重段去重（DRAFT_DEDUP）",
+    "紧邻上下文事实与算术自洽裁决（CONTEXT_LOGIC_OVERRIDE）",
+    "物理单位与外文字母OCR退化修复（UNIT_OCR_RECOVERY）"
   ],
   "new_categories": [
     "防盗字符别名置换混淆",
     "核物理与同位素字形损坏",
     "连载作者碎碎念与催更提示",
     "网址过滤残留病句",
-    "科学计数法指数截断丢失"
+    "科学计数法指数截断丢失",
+    "科学计数法上标脱落还原（SCI_NOTATION_RECOVERY）",
+    "正文内嵌分割线/括号式作者日常随笔剥离（INLINE_AUTHOR_DIARY_STRIP）",
+    "草稿相邻重段去重（DRAFT_DEDUP）",
+    "紧邻上下文事实与算术自洽裁决（CONTEXT_LOGIC_OVERRIDE）",
+    "物理单位与外文字母OCR退化修复（UNIT_OCR_RECOVERY）"
   ]
 }
