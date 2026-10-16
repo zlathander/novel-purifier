@@ -1,0 +1,527 @@
+{
+  "novel_title": "面壁者但元婴期",
+  "source_encoding": "gb18030",
+  "total_lines": 79182,
+  "total_characters": 1892271,
+  "total_raw_chapter_matches": 899,
+  "total_dedup_chapters": 500,
+  "consecutive_duplicate_count": 399,
+  "consecutive_duplicates_sample": [
+    {
+      "first_line": 12305,
+      "second_line": 12307,
+      "first_title": "第87章 地火（二）（30000收藏加更）",
+      "second_title": "第87章 地火（二）（30000收藏加更）"
+    },
+    {
+      "first_line": 12423,
+      "second_line": 12425,
+      "first_title": "第88章 地火（三）",
+      "second_title": "第88章 地火（三）"
+    },
+    {
+      "first_line": 12541,
+      "second_line": 12543,
+      "first_title": "第89章 地火（四）",
+      "second_title": "第89章 地火（四）"
+    },
+    {
+      "first_line": 12661,
+      "second_line": 12663,
+      "first_title": "第90章 地火（完）",
+      "second_title": "第90章 地火（完）"
+    },
+    {
+      "first_line": 12815,
+      "second_line": 12817,
+      "first_title": "第91章 危害世界罪",
+      "second_title": "第91章 危害世界罪"
+    },
+    {
+      "first_line": 12983,
+      "second_line": 12985,
+      "first_title": "第92章 章北海",
+      "second_title": "第92章 章北海"
+    },
+    {
+      "first_line": 13125,
+      "second_line": 13127,
+      "first_title": "第93章 陨石雨",
+      "second_title": "第93章 陨石雨"
+    },
+    {
+      "first_line": 13237,
+      "second_line": 13239,
+      "first_title": "第94章 螳螂捕蝉，黄雀炸锅",
+      "second_title": "第94章 螳螂捕蝉，黄雀炸锅"
+    },
+    {
+      "first_line": 13365,
+      "second_line": 13367,
+      "first_title": "第95章 第三次破壁行动",
+      "second_title": "第95章 第三次破壁行动"
+    },
+    {
+      "first_line": 13507,
+      "second_line": 13509,
+      "first_title": "第96章 我们是同志了（二合一）",
+      "second_title": "第96章 我们是同志了（二合一）"
+    },
+    {
+      "first_line": 13743,
+      "second_line": 13745,
+      "first_title": "第97章 什么破名字（补更）",
+      "second_title": "第97章 什幺破名字（补更）"
+    },
+    {
+      "first_line": 13855,
+      "second_line": 13857,
+      "first_title": "第98章 镜子",
+      "second_title": "第98章 镜子"
+    },
+    {
+      "first_line": 13961,
+      "second_line": 13963,
+      "first_title": "第99章 告诉史达林，尤里找到了",
+      "second_title": "第99章 告诉史达林，尤里找到了"
+    },
+    {
+      "first_line": 14107,
+      "second_line": 14109,
+      "first_title": "第100章 杂鱼修仙者",
+      "second_title": "第100章 杂鱼修仙者"
+    },
+    {
+      "first_line": 14253,
+      "second_line": 14255,
+      "first_title": "第101章 第二舰队",
+      "second_title": "第101章 第二舰队"
+    }
+  ],
+  "chapter_gaps_count": 9,
+  "chapter_gaps": [
+    {
+      "from_chapter": 64,
+      "to_chapter": 69,
+      "from_line": 9625,
+      "to_line": 9851,
+      "from_title": "第64章 不可避免的大低谷（明天上架，求首订）",
+      "to_title": "第69章 清理eto（求本章首订！！！）"
+    },
+    {
+      "from_chapter": 83,
+      "to_chapter": 13,
+      "from_line": 11709,
+      "to_line": 11847,
+      "from_title": "第83章 危机纪元第12年",
+      "to_title": "第13章 低烈度大低谷"
+    },
+    {
+      "from_chapter": 13,
+      "to_chapter": 84,
+      "from_line": 11847,
+      "to_line": 11849,
+      "from_title": "第13章 低烈度大低谷",
+      "to_title": "第84章 低烈度大低谷"
+    },
+    {
+      "from_chapter": 84,
+      "to_chapter": 14,
+      "from_line": 11849,
+      "to_line": 11989,
+      "from_title": "第84章 低烈度大低谷",
+      "to_title": "第14章 守序善良派"
+    },
+    {
+      "from_chapter": 14,
+      "to_chapter": 85,
+      "from_line": 11989,
+      "to_line": 11991,
+      "from_title": "第14章 守序善良派",
+      "to_title": "第85章 守序善良派"
+    },
+    {
+      "from_chapter": 85,
+      "to_chapter": 15,
+      "from_line": 11991,
+      "to_line": 12201,
+      "from_title": "第85章 守序善良派",
+      "to_title": "第15章 地火（一）（1000月票加更）"
+    },
+    {
+      "from_chapter": 15,
+      "to_chapter": 86,
+      "from_line": 12201,
+      "to_line": 12203,
+      "from_title": "第15章 地火（一）（1000月票加更）",
+      "to_title": "第86章 地火（一）（1000月票加更）"
+    },
+    {
+      "from_chapter": 377,
+      "to_chapter": 373,
+      "from_line": 56597,
+      "to_line": 56819,
+      "from_title": "第377章 大清算（4k）",
+      "to_title": "第373章 图丫丫与小苔藓（免费）"
+    },
+    {
+      "from_chapter": 374,
+      "to_chapter": 378,
+      "from_line": 56997,
+      "to_line": 57161,
+      "from_title": "第374章 宇称不守恒（免费）",
+      "to_title": "第378章 我想去追求真爱（3k）"
+    }
+  ],
+  "author_notes_count": 14,
+  "author_notes": [
+    {
+      "line_number": 2963,
+      "title": "请假条"
+    },
+    {
+      "line_number": 6543,
+      "title": "请假条"
+    },
+    {
+      "line_number": 9017,
+      "title": "请假条"
+    },
+    {
+      "line_number": 9761,
+      "title": "上架感言（明天十点上架）"
+    },
+    {
+      "line_number": 12103,
+      "title": "请假条"
+    },
+    {
+      "line_number": 12105,
+      "title": "请假条"
+    },
+    {
+      "line_number": 17027,
+      "title": "请假条"
+    },
+    {
+      "line_number": 17029,
+      "title": "请假条"
+    },
+    {
+      "line_number": 27577,
+      "title": "超级请假条"
+    },
+    {
+      "line_number": 27579,
+      "title": "超级请假条"
+    },
+    {
+      "line_number": 45469,
+      "title": "卡文ing"
+    },
+    {
+      "line_number": 45471,
+      "title": "卡文ing"
+    },
+    {
+      "line_number": 66605,
+      "title": "卡文，请假一天"
+    },
+    {
+      "line_number": 66607,
+      "title": "卡文，请假一天"
+    }
+  ],
+  "canonical_entity_mapping": {
+    "雷格亚兹": "雷迪亚兹",
+    "西恩斯": "希恩斯",
+    "pcd": "PDC",
+    "pdc": "PDC",
+    "bbc": "BBC",
+    "eto": "ETO"
+  },
+  "top_acronyms": [
+    {
+      "acronym": "quot",
+      "count": 57
+    },
+    {
+      "acronym": "moss",
+      "count": 43
+    },
+    {
+      "acronym": "gt",
+      "count": 15
+    },
+    {
+      "acronym": "jpg",
+      "count": 7
+    },
+    {
+      "acronym": "pdc",
+      "count": 5
+    },
+    {
+      "acronym": "com",
+      "count": 4
+    },
+    {
+      "acronym": "ok",
+      "count": 4
+    },
+    {
+      "acronym": "amp",
+      "count": 4
+    },
+    {
+      "acronym": "ps",
+      "count": 3
+    },
+    {
+      "acronym": "ero",
+      "count": 3
+    },
+    {
+      "acronym": "https",
+      "count": 2
+    },
+    {
+      "acronym": "www",
+      "count": 2
+    },
+    {
+      "acronym": "co",
+      "count": 2
+    },
+    {
+      "acronym": "cern",
+      "count": 2
+    },
+    {
+      "acronym": "edo",
+      "count": 2
+    },
+    {
+      "acronym": "or",
+      "count": 2
+    },
+    {
+      "acronym": "sss",
+      "count": 2
+    },
+    {
+      "acronym": "you",
+      "count": 2
+    },
+    {
+      "acronym": "ke",
+      "count": 2
+    },
+    {
+      "acronym": "what",
+      "count": 1
+    }
+  ],
+  "top_entities": [
+    {
+      "entity": "罗清",
+      "count": 255
+    },
+    {
+      "entity": "之后",
+      "count": 208
+    },
+    {
+      "entity": "本章完",
+      "count": 198
+    },
+    {
+      "entity": "太阳系舰队",
+      "count": 182
+    },
+    {
+      "entity": "当然",
+      "count": 179
+    },
+    {
+      "entity": "科学执政官",
+      "count": 151
+    },
+    {
+      "entity": "因此",
+      "count": 151
+    },
+    {
+      "entity": "恒星级战舰",
+      "count": 142
+    },
+    {
+      "entity": "艘恒星级战",
+      "count": 123
+    },
+    {
+      "entity": "危机纪元",
+      "count": 121
+    },
+    {
+      "entity": "灯船",
+      "count": 120
+    },
+    {
+      "entity": "光年",
+      "count": 115
+    },
+    {
+      "entity": "罗辑",
+      "count": 110
+    },
+    {
+      "entity": "光速",
+      "count": 109
+    },
+    {
+      "entity": "智子",
+      "count": 108
+    },
+    {
+      "entity": "舰队",
+      "count": 102
+    },
+    {
+      "entity": "元首",
+      "count": 99
+    },
+    {
+      "entity": "很快",
+      "count": 98
+    },
+    {
+      "entity": "地球",
+      "count": 98
+    },
+    {
+      "entity": "大环指挥官",
+      "count": 98
+    },
+    {
+      "entity": "状态",
+      "count": 97
+    },
+    {
+      "entity": "战舰",
+      "count": 96
+    },
+    {
+      "entity": "亚洲舰队司",
+      "count": 96
+    },
+    {
+      "entity": "文明",
+      "count": 95
+    },
+    {
+      "entity": "三体第二舰",
+      "count": 85
+    },
+    {
+      "entity": "最高指挥官",
+      "count": 84
+    },
+    {
+      "entity": "起来",
+      "count": 81
+    },
+    {
+      "entity": "罗清说",
+      "count": 79
+    },
+    {
+      "entity": "面壁者",
+      "count": 77
+    },
+    {
+      "entity": "来了",
+      "count": 77
+    },
+    {
+      "entity": "问题",
+      "count": 77
+    },
+    {
+      "entity": "排险者传感",
+      "count": 77
+    },
+    {
+      "entity": "吞食帝国的",
+      "count": 77
+    },
+    {
+      "entity": "的存在",
+      "count": 75
+    },
+    {
+      "entity": "丁仪",
+      "count": 74
+    },
+    {
+      "entity": "说道",
+      "count": 73
+    },
+    {
+      "entity": "是的",
+      "count": 72
+    },
+    {
+      "entity": "时间",
+      "count": 70
+    },
+    {
+      "entity": "第二舰队统",
+      "count": 69
+    },
+    {
+      "entity": "公里",
+      "count": 68
+    },
+    {
+      "entity": "世界",
+      "count": 67
+    },
+    {
+      "entity": "一下",
+      "count": 65
+    },
+    {
+      "entity": "人类",
+      "count": 65
+    },
+    {
+      "entity": "存在",
+      "count": 64
+    },
+    {
+      "entity": "三体",
+      "count": 64
+    },
+    {
+      "entity": "其中",
+      "count": 62
+    },
+    {
+      "entity": "量子计算机",
+      "count": 62
+    },
+    {
+      "entity": "面壁者罗清",
+      "count": 61
+    },
+    {
+      "entity": "行星级战舰",
+      "count": 61
+    },
+    {
+      "entity": "级文明",
+      "count": 60
+    }
+  ]
+}
