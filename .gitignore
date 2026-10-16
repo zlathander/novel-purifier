@@ -1,9 +1,9 @@
 # 忽略所有中间工作目录与备份目录，防止污染 Git 历史
-work/
+# work/
 backup/
 batches/
 
-# 忽略 Python 编译缓存
+# 忽略 Python 编译缓存      
 __pycache__/
 *.py[cod]
 *$py.class
