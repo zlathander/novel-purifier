@@ -1,0 +1,147 @@
+{
+  "regex_watermarks": [
+    "^\\s*本书首发.*$",
+    "^\\s*更新不易，记得分享网\\s*$",
+    "^\\s*.*全手打无错站\\s*$",
+    "^\\s*【(?:记住全网最快小说站|写到这里我希望读者记一下我们域名).*】\\s*$",
+    "^\\s*更多精彩小说，请访问：.*$",
+    "^\\s*来源：.*$",
+    "^\\s*网址：https?://.*$",
+    "^\\s*章节范围：.*$",
+    "^\\s*(?:&gt;|>)\\s*$",
+    "^\\s*（请记住网站，观看最快的章节更新）\\s*$",
+    "^\\s*最⊥新⊥小⊥说⊥在.*$",
+    "^\\s*记住我们网\\s*$"
+  ],
+  "inline_replacements": [
+    {
+      "pattern": "101[?]+.[?]+",
+      "replacement": ""
+    },
+    {
+      "pattern": "[?]{5,}\\.[?]{3,}",
+      "replacement": ""
+    },
+    {
+      "pattern": "最⊥新⊥小⊥说⊥在⊥+首⊥发！?",
+      "replacement": ""
+    }
+  ],
+  "exact_matches": [
+    {
+      "pattern": "什幺",
+      "replacement": "什么"
+    },
+    {
+      "pattern": "那幺",
+      "replacement": "那么"
+    },
+    {
+      "pattern": "怎幺",
+      "replacement": "怎么"
+    },
+    {
+      "pattern": "这幺",
+      "replacement": "这么"
+    },
+    {
+      "pattern": "多幺",
+      "replacement": "多么"
+    },
+    {
+      "pattern": "要幺",
+      "replacement": "要么"
+    },
+    {
+      "pattern": "擡",
+      "replacement": "抬"
+    },
+    {
+      "pattern": "凭藉",
+      "replacement": "凭借"
+    },
+    {
+      "pattern": "。。",
+      "replacement": "。"
+    },
+    {
+      "pattern": "撒gg",
+      "replacement": "撒广告"
+    },
+    {
+      "pattern": "贴纸gg",
+      "replacement": "贴纸广告"
+    },
+    {
+      "pattern": "gg牌",
+      "replacement": "广告牌"
+    },
+    {
+      "pattern": "［gg位］",
+      "replacement": "［广告位］"
+    },
+    {
+      "pattern": "近在哭尺",
+      "replacement": "近在咫尺"
+    },
+    {
+      "pattern": "因嘻废食",
+      "replacement": "因噎废食"
+    },
+    {
+      "pattern": "夏然而止",
+      "replacement": "戛然而止"
+    }
+  ],
+  "acronym_normalizations": [
+    {
+      "pattern": "\\b(?:pcd|pdc)\\b",
+      "replacement": "PDC"
+    },
+    {
+      "pattern": "\\b(?:eto|et0|teo)\\b",
+      "replacement": "ETO"
+    },
+    {
+      "pattern": "\\b(?:pia)\\b",
+      "replacement": "PIA"
+    },
+    {
+      "pattern": "\\b(?:m0ss|moos|mo0s)\\b",
+      "replacement": "MOSS"
+    },
+    {
+      "pattern": "\\b(?:cctv)\\b",
+      "replacement": "CCTV"
+    },
+    {
+      "pattern": "\\b(?:lhc)\\b",
+      "replacement": "LHC"
+    },
+    {
+      "pattern": "\\b(?:cern)\\b",
+      "replacement": "CERN"
+    }
+  ],
+  "title_suffixes": [
+    "（求追读）",
+    "（求追读，求收藏）",
+    "（求月票）",
+    "（求月票！）",
+    "（求月票票）",
+    "（咕，求月票）",
+    "（求月票，五一上架）",
+    "（求月票擡擡新书榜排名）",
+    "（求月票抬抬新书榜排名）",
+    "（求首订）",
+    "（求本章首订！！！）",
+    "（五一上架，提前求首订）",
+    "（明天上架，求首订）",
+    "（1000月票加更）",
+    "（30000收藏加更）",
+    "（为盟主冰美式加更110）",
+    "（为盟主冰美式加更1／10）",
+    "（为谦蒙渐舵主加更）",
+    "（补更）"
+  ]
+}
